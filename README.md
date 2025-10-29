@@ -111,7 +111,7 @@ This guide outlines the steps needed to set up a Kubernetes cluster using `kubea
 
 2. Paste the join command you got from the master node and append `--v=5` at the end:
     ```bash
-    sudo kubeadm join enter token that was given by master for for connecting worker node with master 
+    sudo kubeadm (join enter token that was given by master for for connecting worker node with master) 
     ```
 
     > **Note**: When pasting the join command from the master node:
